@@ -2,7 +2,14 @@
 [JSdoc Github](https://github.com/jsdoc/jsdoc)
 
 ## setup
-Install Globaly with **-g** : `npm install -g jsdoc` or locally :  `npm install jsdoc --save-dev`
+Install Globaly with **-g** : 
+```
+npm install -g jsdoc
+```
+or locally : 
+```
+npm install jsdoc --save-dev
+```
 
 If you installed JSDoc globally, run the jsdoc command: 
 `jsdoc yourJavaScriptFile.js`
@@ -29,7 +36,9 @@ HTML inside the folder `.\out`.
 ## Quick Guide
 [JsDocs Vscode Quick Guide](https://code.visualstudio.com/docs/languages/javascript)
 
-TL;DR: Create comments using `/**` and enter for functions, and use tags to define variable charateristic like `@constant`, `@enum`, `@global` followed by a curly bracket `{type}` and the type of the variable.
+TL;DR: Create comments using `/**` and enter.
+
+Ues tags to define variable like `@constant`, `@enum`, `@global` followed by a pair of curly bracket `{ type }` with the type inside.
 
 Use `@param` and `@example` in function comment.
 

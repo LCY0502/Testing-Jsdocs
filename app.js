@@ -16,7 +16,7 @@
  */
 const baseURL = 'https://cool.dev/api';
 /**
- * See {@link getData} or that
+ * See ROOK{@link root} 
  * @enum {Array.<string>} list of possible colour values to be used
  */
 const COLORS = ['rebeccapurple', 'cornflowerblue', 'lightsalmon'];
@@ -26,6 +26,16 @@ const COLORS = ['rebeccapurple', 'cornflowerblue', 'lightsalmon'];
  */
 const API_KEY = 'abcd-0123';
 
+/**
+ * 
+ * @param a {string} is a string
+ * @param b {number} is a integer
+ * @param c {any} is anything @param d {product} is custom type
+ * @example who cares
+ */ 
+function(a, b, c, d){
+
+}
 /**
  * @type {HTMLElement}
  * @global
